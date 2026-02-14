@@ -1,6 +1,6 @@
 {
   "name": "@cstu-fork/taro-signature-pad",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "taro3手写签名库",
   "homepage": "https://github.com/SunLxy/taro-signature-pad#readme",
   "main": "lib/index.js",
