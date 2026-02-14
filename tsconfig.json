@@ -1,31 +1,23 @@
 {
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es2015",
+    "jsx": "react-jsx",
+    "target": "esnext",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "jsx": "react",
-    "jsxFactory": "React.createElement",
-    "noImplicitAny": false,
-    "experimentalDecorators": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "watch": false,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
+    "importHelpers": false,
+    "esModuleInterop": true,
+    "sourceMap": false,
     "allowSyntheticDefaultImports": true,
-    "lib": [
-      "es2015.promise",
-      "es2015",
-      "es2016",
-      "dom"
-    ]
+    "declaration": true,
+    "skipLibCheck": true,
+    "outDir": "esm",
+    "baseUrl": "./src",
+    "rootDir": "./src"
   },
-  "filesGlob": [
-    "components/**/*.ts",
-    "themes/**/*.tsx"
+  "include": [
+    "src/**/*"
   ],
   "exclude": [
-    "build",
     "node_modules"
   ]
 }
